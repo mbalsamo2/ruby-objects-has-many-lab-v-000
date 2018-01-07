@@ -5,7 +5,7 @@ class Post
     @name = name
   end
 
-  def author_name
+  def author_name(name)
     @author == nil ? nil : @author.name
   end
 
