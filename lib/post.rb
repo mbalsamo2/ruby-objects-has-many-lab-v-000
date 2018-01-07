@@ -5,4 +5,8 @@ class Post
     @name = name
   end
 
+  def author_name
+    
+  end
+
 end
